@@ -21,8 +21,8 @@
       <!-- Add Pet To List -->
       <button class="button" @click=AddPet>Add Pet</button>
       <!-- Dynamic Change pet name/species -->
-      <input type="text" v-model="petname">
-      <input type="text" v-model="species">
+      <input type="text" v-model="petname" placeholder="Pet Name">
+      <input type="text" v-model="species" placeholder="Species">
       <!--Show/Hide list button-->
       <button class="button" id="btnShow" v-if="!show" @click=Show>Show List</button>
       <button class="button" id="btnShow" v-if="show" @click=Show>Hide List</button>
